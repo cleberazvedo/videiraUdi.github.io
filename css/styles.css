@@ -429,8 +429,7 @@ header {
 }
 
 .content img {
-    width: 70%;
-    height: 45%;
+    margin-top: 20px;
     margin-bottom: 10px;
     animation: letterMove 5s linear infinite;
 }
