@@ -1,15 +1,3 @@
-/* =============================================
- *
- *   FIXED RESPONSIVE NAV
- *
- *   (c) 2014 @adtileHQ
- *   http://www.adtile.me
- *   http://twitter.com/adtilehq
- *
- *   Free to use under the MIT License.
- *
- * ============================================= */
-
 body,
 div,
 h1,
@@ -426,12 +414,17 @@ header {
 
 .content img {
     margin-top: 20px;
-    margin-bottom: 10px;
-    animation: letterMove 5s linear infinite;
+    margin-bottom: 15px;
+    border: 6px solid white;
+    border-radius: 300px;
+    padding: 8px 0px 0px 5px;
+    animation: animatetop 3s linear;
 }
 
 .content label {
     font-size: 15px;
     font-family: calibri;
     animation: fontPiscando 2s linear infinite;
+    animation-delay: 3s;
+    color: black;
 }
