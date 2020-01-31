@@ -381,7 +381,8 @@ header {
 }
 
 .pdfAudio {
-    padding: 15px 0px 15px 0px
+    padding: 15px 0px 15px 0px;
+    margin: 20px;
 }
 
 .pdfAudio a {
