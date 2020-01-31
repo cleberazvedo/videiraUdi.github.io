@@ -44,14 +44,6 @@ a:hover {
     outline: 0;
 }
 
-@-webkit-viewport {
-    width: device-width;
-}
-
-@-moz-viewport {
-    width: device-width;
-}
-
 @-ms-viewport {
     width: device-width;
 }
@@ -331,7 +323,6 @@ header {
     content: "\2261";
     /* Hamburger icon */
     text-indent: 0;
-    speak: none;
     width: 100%;
     left: 0;
     top: 0;
@@ -381,12 +372,9 @@ header {
 }
 
 .pdfAudio {
-    padding: 15px 0px 15px 0px;
-    margin: 20px;
-}
-
-.menuVideira {
-    padding: 15px 0px 15px 0px;
+    padding: 15px 15px 15px 15px;
+    margin: 8px;
+    border: 2px solid limegreen;
 }
 
 .pdfAudio a {
@@ -397,9 +385,6 @@ header {
 
 .pdfAudio label {
     font-size: 12px;
-}
-
-.pdfAudio img {
 }
 
 .display {
@@ -436,7 +421,11 @@ header {
 
 .container {
     display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+}
+
+.linhaPdf {
+    display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: initial;
 }
