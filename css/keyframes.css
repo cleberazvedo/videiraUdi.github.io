@@ -6,7 +6,7 @@
     }
     25% {
         color: rgb(141, 141, 141);
-        text-shadow: 1.5px 1.5px 2px rgb(190, 190, 190);
+        text-shadow: 1px 1px 2px rgb(190, 190, 190);
         border: 1.5px solid rgb(65, 65, 65);
     }
     50% {
@@ -16,7 +16,7 @@
     }
     75% {
         color: rgb(141, 141, 141);
-        text-shadow: 1.5px 1.5px 2px rgb(190, 190, 190);
+        text-shadow: 1.px 1px 2px rgb(190, 190, 190);
         border: 1.5px solid rgb(65, 65, 65);
     }
     100% {
