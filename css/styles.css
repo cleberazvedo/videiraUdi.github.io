@@ -385,6 +385,10 @@ header {
     margin: 20px;
 }
 
+.menuVideira {
+    padding: 15px 0px 15px 0px;
+}
+
 .pdfAudio a {
     text-decoration: none;
     font-size: 10px;
