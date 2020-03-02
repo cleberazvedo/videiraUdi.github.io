@@ -1,9 +1,9 @@
 input[type="button"],
 [type="reset"],
 [type="submit"] {
-    width: 400px;
+    width: 330px;
     height: 70px;
-    font-size: 16px;
+    font-size: 15px;
     border-radius: 5px;
     border: 1px solid rgb(77, 77, 77);
     box-shadow: 2px 7px 5px #444444;
